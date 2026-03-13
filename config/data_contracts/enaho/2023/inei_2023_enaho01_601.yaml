@@ -12,6 +12,9 @@ dataset:
   bronze_name: inei_2023_enaho01_601_raw
   raw_file_name: Enaho01-2023-601.csv
   year: 2023
+  provider: Instituto Nacional de Estadística e Informática (INEI)
+  license: Open Data Commons Open Database License (ODbL)
+  dataset_name: ENAHO
 schema:
   physical_type: parquet
   engine: duckdb

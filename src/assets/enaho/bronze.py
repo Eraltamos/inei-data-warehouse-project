@@ -8,7 +8,7 @@ from src.utils.inei_downloader import IneiDownloader
 # 1. Definimos la configuración para que apunte al Data Source YAML
 class EnahoBronzeConfig(Config):
     ruta_source_yaml: str = Field(
-        default="config/data_sources/enaho/2023/inei_enaho_2023_source.yaml",
+        default="config/technical_contracts/enaho/2023/inei_enaho_2023_source.yaml",
         description="Ruta al catálogo YAML con los metadatos globales del dataset"
     )
 
